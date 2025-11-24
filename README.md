@@ -29,7 +29,6 @@
 ```cmd
 # 克隆仓库
 git clone https://github.com/bit47/FILE_STAT.git
-cd FILE_STAT\build
 
 # 创建构建目录
 mkdir build && cd build
@@ -84,4 +83,5 @@ add_executable(file_stat main.cpp)
 二编: 好像没用, 还是乱码, 通过在控制台输入chcp 65001 改变控制台命名方式
 
 ![solution1](./img/solution1.png)
+
 
