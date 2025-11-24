@@ -103,8 +103,6 @@ public:
             exit(535897);
         }
     }
-//休息一下, 马上回来
-//好吧其实是去跑校园跑去了
 
 //----------------------------------------------------------统计中文字符
     bool isChineseChar(uint32_t cp)
@@ -252,4 +250,5 @@ int main(int argc, char* argv[])
     cout<<"success\n";
 
     return 0;
+
 }
