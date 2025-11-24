@@ -60,7 +60,7 @@ success
 
 ### 1. 输出遇到乱码 ###
 
-![error1](img\error1.png)
+![error1](./img/error1.png)
 
 #### 解决方式 ####
 
@@ -80,4 +80,4 @@ include_directories(include)
 add_executable(file_stat main.cpp)
 ```
 
-![solution1](img\solution1.png)
+![solution1](./img/solution1.png)
