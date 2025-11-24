@@ -80,8 +80,9 @@ include_directories(include)
 add_executable(file_stat main.cpp)
 ```
 
-二编: 好像没用, 还是乱码, 通过在控制台输入chcp 65001 改变控制台命名方式
+二编: 好像没用, 还是乱码, 通过在控制台输入chcp 65001 改变控制台编码方式
 
 ![solution1](./img/solution1.png)
+
 
 
