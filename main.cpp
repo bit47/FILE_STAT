@@ -58,7 +58,7 @@ public:
                     continue;
                 }
                 //转换大小写
-                transform(word.begin(),word.end(),word.begin(),[](char c){return tolower((unsigned char)c);});//欸这里类型转换可以记录一下
+                transform(word.begin(),word.end(),word.begin(),[](char c){return tolower((unsigned char)c);});
                 //存储
                 _dict[word]++;
                 _wcnt++;
